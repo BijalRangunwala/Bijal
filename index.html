@@ -549,6 +549,13 @@ body.custom-background { background-image: url("https://mk0machothemesdbc90l.kin
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-129">
     <a href="https://bijalrangunwala.github.io/Bijal/#contact">Contact</a></li>
 </ul>
+    <script>
+        //.menu-mobile-active .menu-mobile-close
+        $('#menu-mobile').on('click', function(){
+        $("#menu-mobile-close").hide();
+        $("#menu-icon").removeClass("menu-mobile-active");
+    });
+    </script>
     <script type="text/javascript">
 		var c = document.body.className;
 		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
